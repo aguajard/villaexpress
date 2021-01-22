@@ -3,9 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        'logo': "url('/src/assets/img/Express.png')",
-       })
+      fontFamily: {
+        villa: ['Gurajada'],
+      }
     },
   },
   variants: {
