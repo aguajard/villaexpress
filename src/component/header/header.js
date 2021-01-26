@@ -12,9 +12,9 @@ const header = () => {
       </div>
       <div className="pt-10 w-0 invisible md:visible md:w-auto">
         <ul className="flex justify-end">
-          <li className="border-2 rounded-md border-white px-2 hover:bg-green-300 ">SERVICIOS</li>
-          <li className="border-2 rounded-md border-white px-2 hover:bg-green-300 mx-5">CONTACTO</li>
-          <li className="border-2 rounded-md border-white px-2 hover:bg-green-300">COTIZACION</li>
+          <li className="border-2 rounded-md border-verde px-2 hover:bg-verde">SERVICIOS</li>
+          <li className="border-2 rounded-md border-verde px-2 hover:bg-verde mx-5">CONTACTO</li>
+          <li className="border-2 rounded-md border-verde px-2 hover:bg-verde">COTIZACION</li>
         </ul>
       </div>
       <Burger />
