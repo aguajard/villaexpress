@@ -5,18 +5,19 @@ import logob from "../../assets/img/Express.png";
 
 const header = () => {
   return (
-    <div className="bg-black text-white px-8 pt-2 font-villa text-2xl lg:px-32 ">
+    <div className="bg-black h-28 text-white px-8 pt-2 font-villa text-2xl md:h-32 lg:px-32 ">
       {/*CONTENEDOR--MIGAS DE PAN*/}
-      <div className="w-52 float-left">
-        <img src={logob} alt="logo"></img>s
+      <div className="w-40 float-left ml-2 md:w-52 md:ml-0">
+        <img src={logob} alt="logo"></img>
       </div>
-      <div className="pt-10">
+      <div className="pt-10 w-0 invisible md:visible md:w-auto">
         <ul className="flex justify-end">
           <li className="border-2 rounded-md border-white px-2 hover:bg-green-300 ">SERVICIOS</li>
           <li className="border-2 rounded-md border-white px-2 hover:bg-green-300 mx-5">CONTACTO</li>
           <li className="border-2 rounded-md border-white px-2 hover:bg-green-300">COTIZACION</li>
         </ul>
       </div>
+      <Burger />
     </div>
   );
 };

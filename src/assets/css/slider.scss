@@ -1,0 +1,70 @@
+.slider {
+  position: relative;
+  width: 100%;
+  
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #000000;
+  background-size: cover;
+}
+
+.slide {
+  position: relative;
+  min-width: 100%;
+  
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+%btn-styles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  &:hover {
+    background: rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+    i {
+        color: rgb(119, 119, 119);
+    }
+  }
+}
+
+#goLeft {
+  left: 0;
+  @extend %btn-styles;
+}
+
+#goRight {
+  right: 0;
+  @extend %btn-styles;
+}
+
+@media (max-width: 767px) {
+
+  .ulnav {
+      position: absolute;
+      flex-flow: row nowrap;
+      background-color: #000000;
+
+      top: 0;
+      right: 0;
+      width: 300px;
+      height: 100vh;
+      padding-top: 3.5rem;
+  }
+  
+  .linav {
+      color: #fff;
+  }
+  
+  }
