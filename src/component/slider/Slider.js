@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../assets/css/slider.scss";
 import ImgComp from "./ImgComp";
-import i1 from "../../assets/img/i1.jpg";
+import camioneta from "../../assets/img/camioneta.svg";
 import i2 from "../../assets/img/i1.jpg";
 import i3 from "../../assets/img/i1.jpg";
 
@@ -9,7 +9,7 @@ import i3 from "../../assets/img/i1.jpg";
 function Slider() {
   const [x, setX] = useState(0);
   let sliderArr = [
-    <ImgComp src={i1} />,
+    <ImgComp src={camioneta} />,
     <ImgComp src={i2} />,
     <ImgComp src={i3} />,
   ];
