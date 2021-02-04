@@ -27,7 +27,9 @@ const Cotizacion = () => {
               for="first-name"
             ></label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde focus:border-transparent"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 
+              leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
+              focus:border-transparent lg:py-1"
               id="Name"
               type="text"
               placeholder="Nombre Completo"
@@ -39,7 +41,9 @@ const Cotizacion = () => {
               for="EMail"
             ></label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde focus:border-transparent"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 
+              leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
+              focus:border-transparent lg:py-1"
               id="email"
               type="email"
               placeholder="E-Mail"
@@ -51,7 +55,9 @@ const Cotizacion = () => {
               for="Telefono"
             ></label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde focus:border-transparent"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 
+              leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
+              focus:border-transparent lg:py-1"
               id="telefono"
               type="tel"
               placeholder="Telefono"
@@ -68,10 +74,10 @@ const Cotizacion = () => {
             <input
               className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 
             mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
-            focus:border-transparent"
+            focus:border-transparent lg:py-1"
               id="ciudad1"
               type="text"
-              placeholder="Ciudad de origen"
+              placeholder="Origen"
             />
           </div>
           <div className="col-span-5 lg:col-span-2">
@@ -82,10 +88,10 @@ const Cotizacion = () => {
             <input
               className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 
             mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
-            focus:border-transparent"
+            focus:border-transparent lg:py-1"
               id="ciudad2"
               type="text"
-              placeholder="Ciudad de destino"
+              placeholder="Destino"
             />
           </div>
           <div className="col-span-5">
@@ -94,7 +100,9 @@ const Cotizacion = () => {
               for="Peso"
             ></label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde focus:border-transparent"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 
+              leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
+              focus:border-transparent lg:py-1"
               id="peso"
               type="text"
               placeholder="Peso (Kg)"
@@ -106,7 +114,9 @@ const Cotizacion = () => {
               for="dimencion"
             ></label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde focus:border-transparent"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 
+              leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:ring-verde 
+              focus:border-transparent lg:py-1"
               id="dimencion"
               type="text"
               placeholder="Dimenciones (Largo x Ancho x Alto)"
